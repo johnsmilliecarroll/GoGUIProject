@@ -281,6 +281,10 @@ func run() {
 		}
 		//endregion
 
+		if win.JustPressed(pixelgl.KeyR) { //R to respawn at the beginning
+			player.pos = pixel.V(0, 0)
+		}
+
 		//camera
 		cam := pixel.IM.Scaled(win.Bounds().Center().Sub(player.pos), camZoom).Moved(player.pos)
 		win.SetMatrix(cam)

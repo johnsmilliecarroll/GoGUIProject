@@ -5,6 +5,8 @@ Run game.go
 
 Movement: Arrow Keys or WASD
 
+Respawn: Press R
+
 Switch to Debug Mode: Tab
 
 ## How to use the Editor:
